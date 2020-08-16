@@ -1,4 +1,4 @@
-"docker-react-project"sudo: required
+sudo: required
 services:
     - docker
 
