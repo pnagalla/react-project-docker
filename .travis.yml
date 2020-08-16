@@ -1,4 +1,4 @@
-sudo: required
+"docker-react-project"sudo: required
 services:
     - docker
 
@@ -12,8 +12,8 @@ deploy:
     provider: elasticbeanstalk
     region: us-west-1 # Specify your region
     app: "docker-react-project" # Copy it from Elastic Beanstalk dashboard
-    env: "DockerReactProject-env-2" # Copy it from Elastic Beanstalk dashboard
-    bucket_name: "elasticbeanstalk-us-west-1-034275272121"
+    env: "ReactProjectDocker-env" # Copy it from Elastic Beanstalk dashboard
+    bucket_name: "elasticbeanstalk-us-west-1-348542611912"
     bucket_path: "docker"
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
