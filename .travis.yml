@@ -10,10 +10,10 @@ script:
 
 deploy:
  - provider: elasticbeanstalk
-   region: us-west-1 # Specify your region
+   region: us-east-1 # Specify your region
    app: "react-project-docker-staging" # Copy it from Elastic Beanstalk dashboard
    env: "ReactProjectDockerStaging-env" # Copy it from Elastic Beanstalk dashboard
-   bucket_name: "elasticbeanstalk-us-east-1d-348542611912"
+   bucket_name: "elasticbeanstalk-us-east-1-348542611912"
    bucket_path: "docker"
    access_key_id: $AWS_ACCESS_KEY
    secret_access_key: $AWS_SECRET_KEY
@@ -21,10 +21,10 @@ deploy:
     branch: staging
   
  - provider: elasticbeanstalk
-   region: us-west-1 # Specify your region
+   region: us-east-1 # Specify your region
    app: "react-project-docker" # Copy it from Elastic Beanstalk dashboard
    env: "ReactProjectDocker-env" # Copy it from Elastic Beanstalk dashboard
-   bucket_name: "elasticbeanstalk-us-east-1d-348542611912"
+   bucket_name: "elasticbeanstalk-us-east-1-348542611912"
    bucket_path: "docker"
    access_key_id: $AWS_ACCESS_KEY
    secret_access_key: $AWS_SECRET_KEY
