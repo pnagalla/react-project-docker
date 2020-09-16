@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload by AbhinavTEST.
+          Edit <code>src/App.js</code> and save to reload by me.
         </p>
 	my_feature	added one more line
          <a
